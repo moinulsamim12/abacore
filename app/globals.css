@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+
+:root {
+  --background: 225 58% 6%;
+  --foreground: 210 40% 98%;
+  --card: 223 44% 10%;
+  --card-foreground: 210 40% 98%;
+  --popover: 223 44% 10%;
+  --popover-foreground: 210 40% 98%;
+  --primary: 188 90% 70%;
+  --primary-foreground: 225 58% 6%;
+  --secondary: 217 91% 60%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 223 32% 18%;
+  --muted-foreground: 215 22% 65%;
+  --accent: 270 92% 66%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 0 0% 100% / 0.08;
+  --input: 0 0% 100% / 0.08;
+  --ring: 188 90% 70%;
+  --radius: 1rem;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #050816;
+  background-image:
+    radial-gradient(circle at 12% 12%, rgba(110, 231, 249, 0.18), transparent 45%),
+    radial-gradient(circle at 85% 18%, rgba(168, 85, 247, 0.18), transparent 42%),
+    radial-gradient(circle at 55% 80%, rgba(59, 130, 246, 0.14), transparent 45%),
+    linear-gradient(180deg, #050816 0%, #0a0f1c 45%, #101826 100%);
+
+  color: hsl(var(--foreground));
+
+  font-family: var(--font-sans);
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: rgba(110, 231, 249, 0.28);
+  color: #050816;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 15, 28, 0.85);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    rgba(110, 231, 249, 0.6),
+    rgba(168, 85, 247, 0.6)
+  );
+}
