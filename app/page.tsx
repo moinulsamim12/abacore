@@ -9,7 +9,7 @@ import { TestimonialsSection } from '@/components/testimonials-section';
 import { WhyChooseUsSection } from '@/components/why-choose-us';
 
 export const metadata: Metadata = {
-  title: 'AI Automation Agency for Premium Growth',
+  title: 'Abacore | AI Automation Agency',
   description:
     'Abacore builds AI automation systems that help businesses capture more leads, improve conversion rates, and scale faster.'
 };
