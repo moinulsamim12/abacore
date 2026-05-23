@@ -25,6 +25,9 @@
 
 html {
   color-scheme: dark;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -37,8 +40,10 @@ body {
     linear-gradient(180deg, #050816 0%, #0a0f1c 45%, #101826 100%);
 
   color: hsl(var(--foreground));
-
+  overflow-x: hidden;
   font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
 }
 
 * {

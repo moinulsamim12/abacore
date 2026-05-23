@@ -61,7 +61,7 @@ export default function RootLayout({
           <div className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(180deg,#050816_0%,#0a0f1c_45%,#101826_100%)]" />
           <div className="pointer-events-none absolute -left-24 -top-72 -z-10 h-136 w-136 rounded-full bg-[radial-gradient(circle,rgba(110,231,249,0.28),transparent_60%)] blur-3xl" />
           <div className="pointer-events-none absolute -right-40 top-40 -z-10 h-120 w-120 rounded-full bg-[radial-gradient(circle,rgba(168,85,247,0.26),transparent_60%)] blur-3xl" />
-          <div className="pointer-events-none absolute inset-x-0 -bottom-80 -z-10 h-112 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.22),transparent_60%)] blur-3xl" />
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-112 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.22),transparent_60%)] blur-3xl" />
 
           <SiteHeader />
 

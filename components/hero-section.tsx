@@ -40,12 +40,12 @@ const heroStats = [
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-x-hidden pt-32 sm:pt-36 lg:pt-40">
+    <section className="relative overflow-hidden pt-32 sm:pt-36 lg:pt-40">
       
       {/* Background */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(110,231,249,0.14),transparent_34%),radial-gradient(circle_at_18%_18%,rgba(168,85,247,0.10),transparent_28%),radial-gradient(circle_at_70%_60%,rgba(59,130,246,0.10),transparent_32%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.10),transparent_38%),radial-gradient(circle_at_20%_20%,rgba(168,85,247,0.08),transparent_30%),radial-gradient(circle_at_80%_70%,rgba(6,182,212,0.06),transparent_34%)]" />
 
         <div className="absolute left-1/2 top-0 h-128 w-lg -translate-x-1/2 rounded-full bg-cyan-400/10 blur-3xl" />
 
@@ -66,7 +66,7 @@ export function HeroSection() {
           {/* NEW PREMIUM BADGE */}
           <div className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/4 px-6 py-3 backdrop-blur-2xl shadow-[0_8px_40px_rgba(59,130,246,0.12)]">
             
-            <div className="relative flex h-8 w-8 items-center justify-center rounded-full bg-linear-to-br from-cyan-400 via-blue-500 to-purple-500 shadow-[0_0_25px_rgba(59,130,246,0.45)]">
+            <div className="relative flex shrink-0 h-8 w-8 items-center justify-center rounded-full bg-linear-to-br from-cyan-400 via-blue-500 to-purple-500 shadow-[0_0_25px_rgba(59,130,246,0.45)]">
               
               <div className="absolute inset-0 rounded-full bg-linear-to-br from-cyan-400 to-purple-500 blur-md opacity-60" />
 
@@ -82,7 +82,7 @@ export function HeroSection() {
           </div>
 
           {/* Heading */}
-          <h1 className="mx-auto max-w-5xl text-[42px] font-semibold leading-[1.02] tracking-[-0.02em] text-white sm:text-[56px] lg:text-[68px]">
+          <h1 className="mx-auto max-w-5xl text-[30px] font-semibold leading-[1.02] tracking-[-0.02em] text-white sm:text-[40px] lg:text-[68px]">
             
             AI Automation Systems
             <br />
@@ -173,7 +173,7 @@ export function HeroSection() {
 
                   {/* Text */}
                   <div className="text-left">
-                    <p className="text-[38px] font-semibold leading-none tracking-tighter text-white">
+                    <p className="lg:text-[38px] md:text-[34px] sm:text-[30px] font-semibold leading-none tracking-tighter text-white">
                       {stat.value}
                     </p>
 
